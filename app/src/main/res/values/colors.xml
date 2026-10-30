@@ -1,0 +1,9 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cobalt_blue">#1976D2</color>
+    <color name="cobalt_dark">#0D47A1</color>
+    <color name="bg_tv">#0F0F0F</color>
+    <color name="card_border_focused">#3EA6FF</color>
+</resources>
+

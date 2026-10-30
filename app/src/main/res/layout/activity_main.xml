@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_tv">
+
+    <!-- Chromium/Cobalt Runtime Web View -->
+    <WebView
+        android:id="@+id/cobaltWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!-- TV Loading Indicator -->
+    <ProgressBar
+        android:id="@+id/loadingIndicator"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/card_border_focused"
+        android:visibility="visible" />
+
+    <!-- TV Virtual Cursor -->
+    <View
+        android:id="@+id/virtualCursor"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:background="@drawable/cursor_shape"
+        android:visibility="gone" />
+
+</FrameLayout>
+

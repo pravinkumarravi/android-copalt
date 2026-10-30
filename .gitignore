@@ -1,0 +1,28 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Gradle files
+.gradle/
+build/
+app/build/
+ui/dist/
+ui/node_modules/
+
+# Local configuration file (sdk.dir, etc)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio / IntelliJ IDEA
+.idea/
+.kotlin/
+*.iml
+.DS_Store
+
+# Generated screenshots / temp artifacts
+*.png
+0.26.0
